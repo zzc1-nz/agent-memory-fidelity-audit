@@ -1,0 +1,4 @@
+tiktoken==0.14.0
+# Everything else is stdlib + matplotlib (preinstalled).
+# pytest is borrowed from the workspace's shared .pylibs when not globally installed;
+# see scripts/test.py.

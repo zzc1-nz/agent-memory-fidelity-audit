@@ -1,0 +1,278 @@
+{
+  "arms": {
+    "full_context": {
+      "strategy": "full_context",
+      "compression_ratio": 1.0,
+      "context_tokens_total": 416270,
+      "compression_cost_tokens": 0,
+      "total_tokens_amortized": 416270,
+      "total_tokens_one_shot": 416270,
+      "n_probes": 300,
+      "n_correct": 202,
+      "accuracy": 0.673333,
+      "n_partial": 44,
+      "n_unparsed": 0,
+      "n_cells": 300,
+      "cost_per_correct_answer_amortized": 2060.742574,
+      "cost_per_correct_answer_one_shot": 2060.742574,
+      "zero_correct": false,
+      "accuracy_by_kind": {
+        "high_level": 0.677778,
+        "multi_hop": 0.55,
+        "specific_fact": 0.72
+      },
+      "cost_delta_vs_baseline_abs": 0.0,
+      "cost_delta_vs_baseline_pct": 0.0,
+      "cost_ratio_vs_baseline": 1.0,
+      "accuracy_delta_vs_baseline": 0.0
+    },
+    "summary_hierarchical": {
+      "strategy": "summary_hierarchical",
+      "compression_ratio": 0.227279,
+      "context_tokens_total": 94610,
+      "compression_cost_tokens": 260121,
+      "total_tokens_amortized": 354731,
+      "total_tokens_one_shot": 94610,
+      "n_probes": 300,
+      "n_correct": 189,
+      "accuracy": 0.63,
+      "n_partial": 48,
+      "n_unparsed": 0,
+      "n_cells": 300,
+      "cost_per_correct_answer_amortized": 1876.883598,
+      "cost_per_correct_answer_one_shot": 500.582011,
+      "zero_correct": false,
+      "accuracy_by_kind": {
+        "high_level": 0.588889,
+        "multi_hop": 0.516667,
+        "specific_fact": 0.7
+      },
+      "cost_delta_vs_baseline_abs": -183.858976,
+      "cost_delta_vs_baseline_pct": -0.08922,
+      "cost_ratio_vs_baseline": 0.91078,
+      "accuracy_delta_vs_baseline": -0.043333,
+      "cost_delta_vs_baseline_one_shot_pct": -0.757087
+    },
+    "extractive": {
+      "strategy": "extractive",
+      "compression_ratio": 0.247052,
+      "context_tokens_total": 102820,
+      "compression_cost_tokens": 0,
+      "total_tokens_amortized": 102820,
+      "total_tokens_one_shot": 102820,
+      "n_probes": 300,
+      "n_correct": 153,
+      "accuracy": 0.51,
+      "n_partial": 73,
+      "n_unparsed": 0,
+      "n_cells": 300,
+      "cost_per_correct_answer_amortized": 672.026144,
+      "cost_per_correct_answer_one_shot": 672.026144,
+      "zero_correct": false,
+      "accuracy_by_kind": {
+        "high_level": 0.366667,
+        "multi_hop": 0.416667,
+        "specific_fact": 0.633333
+      },
+      "cost_delta_vs_baseline_abs": -1388.71643,
+      "cost_delta_vs_baseline_pct": -0.673891,
+      "cost_ratio_vs_baseline": 0.326109,
+      "accuracy_delta_vs_baseline": -0.163333,
+      "cost_delta_vs_baseline_one_shot_pct": -0.673891
+    }
+  },
+  "accuracy_by_kind": {
+    "full_context": {
+      "high_level": 0.677778,
+      "multi_hop": 0.55,
+      "specific_fact": 0.72
+    },
+    "summary_hierarchical": {
+      "high_level": 0.588889,
+      "multi_hop": 0.516667,
+      "specific_fact": 0.7
+    },
+    "extractive": {
+      "high_level": 0.366667,
+      "multi_hop": 0.416667,
+      "specific_fact": 0.633333
+    }
+  },
+  "breakeven": {
+    "strategy": "extractive",
+    "ratio": 0.247052,
+    "accuracy_retention": 0.757426,
+    "accuracy_compressed": 0.51,
+    "accuracy_full": 0.6733333333333333,
+    "verdict": "compression_pays_off",
+    "max_viable_ratio": 0.757426,
+    "ratio_amortized": 0.247003,
+    "max_viable_ratio_amortized": 0.757426,
+    "cost_ratio_vs_baseline": 0.326109,
+    "token_saving_ratio": 0.752948
+  },
+  "breakeven_by_strategy": {
+    "summary_hierarchical": {
+      "strategy": "summary_hierarchical",
+      "ratio": 0.227279,
+      "accuracy_retention": 0.935644,
+      "accuracy_compressed": 0.63,
+      "accuracy_full": 0.6733333333333333,
+      "verdict": "compression_pays_off",
+      "max_viable_ratio": 0.935644,
+      "ratio_amortized": 0.852166,
+      "max_viable_ratio_amortized": 0.310758,
+      "cost_ratio_vs_baseline": 0.91078,
+      "token_saving_ratio": 0.772721
+    },
+    "extractive": {
+      "strategy": "extractive",
+      "ratio": 0.247052,
+      "accuracy_retention": 0.757426,
+      "accuracy_compressed": 0.51,
+      "accuracy_full": 0.6733333333333333,
+      "verdict": "compression_pays_off",
+      "max_viable_ratio": 0.757426,
+      "ratio_amortized": 0.247003,
+      "max_viable_ratio_amortized": 0.757426,
+      "cost_ratio_vs_baseline": 0.326109,
+      "token_saving_ratio": 0.752948
+    }
+  },
+  "verdict": {
+    "headline": "`extractive` compresses to 25% of the original tokens and keeps 76% of the accuracy, so each correct answer costs **672** tokens versus **2,061** for full context — compression pays off here. That is 67% cheaper per correct answer."
+  },
+  "token_usage": {},
+  "by_probe_kind_cost": {
+    "full_context": {
+      "high_level": {
+        "n_probes": 90,
+        "n_correct": 61,
+        "accuracy": 0.677778,
+        "context_tokens_total": 124881,
+        "compression_cost_tokens_allocated": 0,
+        "total_tokens_amortized": 124881,
+        "cost_per_correct_answer_amortized": 2047.229508,
+        "zero_correct": false
+      },
+      "multi_hop": {
+        "n_probes": 60,
+        "n_correct": 33,
+        "accuracy": 0.55,
+        "context_tokens_total": 83254,
+        "compression_cost_tokens_allocated": 0,
+        "total_tokens_amortized": 83254,
+        "cost_per_correct_answer_amortized": 2522.848485,
+        "zero_correct": false
+      },
+      "specific_fact": {
+        "n_probes": 150,
+        "n_correct": 108,
+        "accuracy": 0.72,
+        "context_tokens_total": 208135,
+        "compression_cost_tokens_allocated": 0,
+        "total_tokens_amortized": 208135,
+        "cost_per_correct_answer_amortized": 1927.175926,
+        "zero_correct": false
+      }
+    },
+    "summary_hierarchical": {
+      "high_level": {
+        "n_probes": 90,
+        "n_correct": 53,
+        "accuracy": 0.588889,
+        "context_tokens_total": 28383,
+        "compression_cost_tokens_allocated": 78036,
+        "total_tokens_amortized": 106419,
+        "cost_per_correct_answer_amortized": 2007.90566,
+        "zero_correct": false
+      },
+      "multi_hop": {
+        "n_probes": 60,
+        "n_correct": 31,
+        "accuracy": 0.516667,
+        "context_tokens_total": 18922,
+        "compression_cost_tokens_allocated": 52024,
+        "total_tokens_amortized": 70946,
+        "cost_per_correct_answer_amortized": 2288.580645,
+        "zero_correct": false
+      },
+      "specific_fact": {
+        "n_probes": 150,
+        "n_correct": 105,
+        "accuracy": 0.7,
+        "context_tokens_total": 47305,
+        "compression_cost_tokens_allocated": 130060,
+        "total_tokens_amortized": 177365,
+        "cost_per_correct_answer_amortized": 1689.190476,
+        "zero_correct": false
+      }
+    },
+    "extractive": {
+      "high_level": {
+        "n_probes": 90,
+        "n_correct": 33,
+        "accuracy": 0.366667,
+        "context_tokens_total": 30846,
+        "compression_cost_tokens_allocated": 0,
+        "total_tokens_amortized": 30846,
+        "cost_per_correct_answer_amortized": 934.727273,
+        "zero_correct": false
+      },
+      "multi_hop": {
+        "n_probes": 60,
+        "n_correct": 25,
+        "accuracy": 0.416667,
+        "context_tokens_total": 20564,
+        "compression_cost_tokens_allocated": 0,
+        "total_tokens_amortized": 20564,
+        "cost_per_correct_answer_amortized": 822.56,
+        "zero_correct": false
+      },
+      "specific_fact": {
+        "n_probes": 150,
+        "n_correct": 95,
+        "accuracy": 0.633333,
+        "context_tokens_total": 51410,
+        "compression_cost_tokens_allocated": 0,
+        "total_tokens_amortized": 51410,
+        "cost_per_correct_answer_amortized": 541.157895,
+        "zero_correct": false
+      }
+    }
+  },
+  "when_is_compression_worth_it": [
+    {
+      "strategy": "summary_hierarchical",
+      "compression_ratio": 0.227279,
+      "accuracy": 0.63,
+      "baseline_accuracy": 0.673333,
+      "accuracy_retention": 0.935644,
+      "cost_per_correct_answer_amortized": 1876.883598,
+      "baseline_cost_per_correct_answer": 2060.742574,
+      "cost_ratio_vs_baseline": 0.91078,
+      "breakeven_holds": true
+    },
+    {
+      "strategy": "extractive",
+      "compression_ratio": 0.247052,
+      "accuracy": 0.51,
+      "baseline_accuracy": 0.673333,
+      "accuracy_retention": 0.757426,
+      "cost_per_correct_answer_amortized": 672.026144,
+      "baseline_cost_per_correct_answer": 2060.742574,
+      "cost_ratio_vs_baseline": 0.326109,
+      "breakeven_holds": true
+    }
+  ],
+  "methodology": {
+    "cost_per_correct_answer": "total_tokens_spent / n_correct; amortized includes the tokens spent producing each compression, one_shot counts the compressed context only",
+    "breakeven_condition": "compression pays off iff accuracy_retention (A_comp/A_full) > compression_ratio (compressed/original tokens)",
+    "n_probes_denominator": "judged cells only; gateway/unparseable verdicts are excluded from accuracy, never counted as incorrect",
+    "partial_policy": "verdict 'partial' is reported but is NOT correct",
+    "baseline_arm": "full_context",
+    "compression_ratio_baseline": 1.0,
+    "delta_sign_convention": "positive cost_delta_vs_baseline_* means compression is MORE expensive per correct answer than full context",
+    "headline_arm": "extractive"
+  }
+}

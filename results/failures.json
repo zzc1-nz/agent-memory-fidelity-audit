@@ -1,0 +1,3160 @@
+{
+  "summary": {
+    "n_lost": 84,
+    "n_compared": 600,
+    "loss_rate": 0.14,
+    "n_facts_lost_verbatim": 41,
+    "n_facts_tracked": 215,
+    "n_lost_probes": 72,
+    "lost_probe_ids": [
+      "s001-p00",
+      "s001-p02",
+      "s001-p03",
+      "s003-p00",
+      "s005-p01",
+      "s005-p02",
+      "s005-p04",
+      "s005-p05",
+      "s005-p08",
+      "s006-p01",
+      "s006-p04",
+      "s006-p07",
+      "s006-p09",
+      "s007-p03",
+      "s008-p00",
+      "s008-p05",
+      "s008-p06",
+      "s008-p08",
+      "s008-p09",
+      "s010-p00",
+      "s010-p01",
+      "s011-p02",
+      "s011-p03",
+      "s011-p08",
+      "s012-p00",
+      "s012-p09",
+      "s013-p01",
+      "s014-p05",
+      "s015-p00",
+      "s015-p01",
+      "s015-p06",
+      "s016-p02",
+      "s016-p03",
+      "s016-p04",
+      "s017-p01",
+      "s017-p02",
+      "s017-p03",
+      "s017-p06",
+      "s017-p08",
+      "s018-p01",
+      "s019-p00",
+      "s019-p02",
+      "s019-p03",
+      "s020-p00",
+      "s020-p01",
+      "s021-p02",
+      "s021-p03",
+      "s021-p08",
+      "s021-p09",
+      "s022-p00",
+      "s022-p08",
+      "s023-p02",
+      "s023-p05",
+      "s024-p00",
+      "s024-p07",
+      "s025-p02",
+      "s025-p03",
+      "s025-p04",
+      "s025-p09",
+      "s026-p01",
+      "s026-p02",
+      "s026-p03",
+      "s027-p00",
+      "s027-p03",
+      "s027-p08",
+      "s028-p00",
+      "s028-p01",
+      "s028-p08",
+      "s029-p01",
+      "s029-p06",
+      "s030-p02",
+      "s030-p03"
+    ]
+  },
+  "survival_by_attribute": {
+    "embedding": {
+      "deep_buried": {
+        "n": 78,
+        "n_survived": 77,
+        "survival_rate": 0.987179
+      },
+      "embedded": {
+        "n": 84,
+        "n_survived": 82,
+        "survival_rate": 0.97619
+      },
+      "standalone": {
+        "n": 53,
+        "n_survived": 52,
+        "survival_rate": 0.981132
+      }
+    },
+    "salience": {
+      "background": {
+        "n": 121,
+        "n_survived": 118,
+        "survival_rate": 0.975207
+      },
+      "foreground": {
+        "n": 94,
+        "n_survived": 93,
+        "survival_rate": 0.989362
+      }
+    },
+    "frequency": {
+      "1": {
+        "n": 134,
+        "n_survived": 131,
+        "survival_rate": 0.977612
+      },
+      "2": {
+        "n": 81,
+        "n_survived": 80,
+        "survival_rate": 0.987654
+      }
+    },
+    "stability": {
+      "stable": {
+        "n": 185,
+        "n_survived": 181,
+        "survival_rate": 0.978378
+      },
+      "superseded": {
+        "n": 30,
+        "n_survived": 30,
+        "survival_rate": 1.0
+      }
+    }
+  },
+  "survival_by_attribute_by_strategy": {
+    "extractive": {
+      "embedding": {
+        "deep_buried": {
+          "n": 78,
+          "n_survived": 61,
+          "survival_rate": 0.782051
+        },
+        "embedded": {
+          "n": 84,
+          "n_survived": 74,
+          "survival_rate": 0.880952
+        },
+        "standalone": {
+          "n": 53,
+          "n_survived": 46,
+          "survival_rate": 0.867925
+        }
+      },
+      "salience": {
+        "background": {
+          "n": 121,
+          "n_survived": 95,
+          "survival_rate": 0.785124
+        },
+        "foreground": {
+          "n": 94,
+          "n_survived": 86,
+          "survival_rate": 0.914894
+        }
+      },
+      "frequency": {
+        "1": {
+          "n": 134,
+          "n_survived": 113,
+          "survival_rate": 0.843284
+        },
+        "2": {
+          "n": 81,
+          "n_survived": 68,
+          "survival_rate": 0.839506
+        }
+      },
+      "stability": {
+        "stable": {
+          "n": 185,
+          "n_survived": 156,
+          "survival_rate": 0.843243
+        },
+        "superseded": {
+          "n": 30,
+          "n_survived": 25,
+          "survival_rate": 0.833333
+        }
+      }
+    },
+    "summary_hierarchical": {
+      "embedding": {
+        "deep_buried": {
+          "n": 78,
+          "n_survived": 75,
+          "survival_rate": 0.961538
+        },
+        "embedded": {
+          "n": 84,
+          "n_survived": 78,
+          "survival_rate": 0.928571
+        },
+        "standalone": {
+          "n": 53,
+          "n_survived": 51,
+          "survival_rate": 0.962264
+        }
+      },
+      "salience": {
+        "background": {
+          "n": 121,
+          "n_survived": 112,
+          "survival_rate": 0.92562
+        },
+        "foreground": {
+          "n": 94,
+          "n_survived": 92,
+          "survival_rate": 0.978723
+        }
+      },
+      "frequency": {
+        "1": {
+          "n": 134,
+          "n_survived": 127,
+          "survival_rate": 0.947761
+        },
+        "2": {
+          "n": 81,
+          "n_survived": 77,
+          "survival_rate": 0.950617
+        }
+      },
+      "stability": {
+        "stable": {
+          "n": 185,
+          "n_survived": 177,
+          "survival_rate": 0.956757
+        },
+        "superseded": {
+          "n": 30,
+          "n_survived": 27,
+          "survival_rate": 0.9
+        }
+      }
+    }
+  },
+  "loss_by_kind": {
+    "high_level": {
+      "n_compared": 180,
+      "n_lost": 41,
+      "loss_rate": 0.227778
+    },
+    "multi_hop": {
+      "n_compared": 120,
+      "n_lost": 14,
+      "loss_rate": 0.116667
+    },
+    "specific_fact": {
+      "n_compared": 300,
+      "n_lost": 29,
+      "loss_rate": 0.096667
+    }
+  },
+  "cases": [
+    {
+      "probe_id": "s001-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s001",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: harden the deployment path before the release freeze. Settled on: poetry; v3.1.4; python>=3.12",
+      "answer_text": "Objective: a service migration, pinned to v3.1.4 with a hard constraint of python>=3.12, staging DB at staging-pg.internal:6432, and production config at /opt/svc/config/.env.production. Note the records conflict on the package manager (uv, then poetry) and the API key path (~/secrets/openai.key vs ~/.config/svc/token.env).",
+      "full_context_answer": "Objective: harden the deployment path before the release freeze. Settled choices: poetry as the package manager (superseding uv), runtime pinned to v3.1.4 with a hard constraint of python>=3.12, API key loaded from ~/.config/svc/credentials.env, staging DB at staging-pg.internal:6432, and production env file at /opt/svc/config/.env.production.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "poetry",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "v3.1.4",
+          "kind": "version",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f04",
+          "value": "python>=3.12",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 313,
+      "compressed_snippet": "mitted to the repo. USER: We standardised on poetry as the package manager for this repo.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s001-p02",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s001",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "~/.config/svc/credentials.env",
+      "answer_text": "Yes — two revisions: the package manager was changed from uv to poetry (current standard: poetry), and the API key location was revised from ~/secrets/openai.key to ~/.config/svc/token.env (still never committed to the repo).",
+      "full_context_answer": "Yes: the package manager was revised from uv to poetry (poetry is current), and the API key/credential path was updated to ~/.config/svc/credentials.env (~/secrets/openai.key is out of date). Other facts unchanged: runtime pinned to v3.1.4, python>=3.12 constraint, production env at /opt/svc/config/.env.production.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "~/.config/svc/credentials.env",
+          "kind": "api_key_location",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 313,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to ~/.config/svc/credentials.env.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s001-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s001",
+      "question": "Where is the API key loaded from? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "~/.config/svc/credentials.env",
+      "answer_text": "~/.config/svc/token.env",
+      "full_context_answer": "~/.config/svc/credentials.env",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "~/.config/svc/credentials.env",
+          "kind": "api_key_location",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 313,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to ~/.config/svc/credentials.env.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s003-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s003",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: harden the deployment path before the release freeze. Settled on: python>=3.12; uv; v3.1.4",
+      "answer_text": "The session tracked a migration pinned to runtime v3.1.4, with settled choices: python>=3.12 as a hard constraint, uv as package manager, prod env at /etc/app/env.prod, staging DB at db-stage-02.internal:5433, and service credentials at /run/secrets/svc_credentials (replacing the outdated ~/secrets/openai.key). Latest test run passed with no failures or flaky tests.",
+      "full_context_answer": "Objective: harden the deployment path before the release freeze. Concrete choices settled: uv as the package manager, python>=3.12 constraint, runtime pinned to v3.1.4, API credentials now read from /run/secrets/svc_credentials (replacing ~/secrets/openai.key), prod env file at /etc/app/env.prod, and staging DB at db-stage-02.internal:5433.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "python>=3.12",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "uv",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "v3.1.4",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 294,
+      "compressed_snippet": "/etc/app/env.prod. ASSISTANT: Re-confirming python>=3.12 before we move on. USER: We stan",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s005-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s005",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "Kaggle:longctx-2026; 2027-01-15; no-proprietary-data",
+      "answer_text": "I don't know.",
+      "full_context_answer": "Decisions recorded: use benchmark harness v0.8.9 (updated from the outdated v2.0.1), evaluate on Kaggle:longctx-2026 without substitution, target the 2027-01-15 17:00 UTC deadline, respect the max-8k-context and no-proprietary-data review criteria, and cite arXiv:2311.04412v2 (Okafor et al.) — all toward reproducing the baseline numbers before the deadline.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "Kaggle:longctx-2026",
+          "kind": "dataset_source",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f06",
+          "value": "2027-01-15",
+          "kind": "date",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "no-proprietary-data",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 2,
+      "compressed_tokens": 314,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "Partially kept: 1 of 3 fact values survived verbatim but `Kaggle:longctx-2026` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s005-p02",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s005",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "v0.8.9",
+      "answer_text": "Only the baseline reproduction/submission deadline changed: the earlier 2026-11-28 date was superseded, and the current deadline is 2027-01-15 17:00 UTC. Everything else (reading list, citations, search results, library) remained unchanged.",
+      "full_context_answer": "Yes — the benchmark harness version was updated from v2.0.1 to v0.8.9; the current evaluation target is v0.8.9.",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "v0.8.9",
+          "kind": "version",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 311,
+      "compressed_snippet": "ded). - ASSISTANT: Benchmark harness release v0.8.9 (v2.0.1 out of date). - ASSISTANT: Eva",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s005-p04",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s005",
+      "question": "What is the canonical source of the evaluation dataset?",
+      "reference_answer": "Kaggle:longctx-2026",
+      "answer_text": "I don't know.",
+      "full_context_answer": "Kaggle:longctx-2026",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "Kaggle:longctx-2026",
+          "kind": "dataset_source",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 314,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "The compressed memory dropped `Kaggle:longctx-2026` entirely (deep_buried, background, mentioned 2x), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s005-p05",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s005",
+      "question": "What hard constraint applies to any solution we ship?",
+      "reference_answer": "no-proprietary-data",
+      "answer_text": "The solution must be delivered before the submission deadline of 2027-01-15 at 17:00 UTC.",
+      "full_context_answer": "The review criteria require max-8k-context and no-proprietary-data, so any solution we ship must respect both.",
+      "facts": [
+        {
+          "fact_id": "f07",
+          "value": "no-proprietary-data",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 314,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "The compressed memory dropped `no-proprietary-data` entirely (embedded, background, mentioned 1x), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s005-p08",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s005",
+      "question": "Which dataset source are we evaluating on, and which version of the harness are we using?",
+      "reference_answer": "Kaggle:longctx-2026; v0.8.9",
+      "answer_text": "I don't know.",
+      "full_context_answer": "We are evaluating on Kaggle:longctx-2026, using harness version v0.8.9 (the earlier v2.0.1 is out of date).",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "Kaggle:longctx-2026",
+          "kind": "dataset_source",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f03",
+          "value": "v0.8.9",
+          "kind": "version",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 314,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "Partially kept: 1 of 2 fact values survived verbatim but `Kaggle:longctx-2026` did not, so a multi_hop question needing all of them failed."
+    },
+    {
+      "probe_id": "s006-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s006",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "Kaggle:longctx-2026; arXiv:2405.12904v3",
+      "answer_text": "The main decisions were: adopt benchmark harness v2.0.1 as the evaluation baseline, keep the single-GPU-only constraint (required by the review criteria), cite arXiv:2405.12904v3 by Okafor et al., and correct the submission deadline to 2026-11-20 (replacing the outdated 2026-12-04). No additions or removals were made to the saved search or reference list.",
+      "full_context_answer": "Key decisions recorded: the submission deadline was updated to 2026-11-20 (superseding 2026-12-04) for the compression paper; evaluation must use the v2.0.1 benchmark harness release with data from Kaggle:longctx-2026 (not to be substituted); the method must respect the review criteria's single-GPU-only constraint; and the key citation is arXiv:2405.12904v3 by Okafor et al.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "Kaggle:longctx-2026",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f06",
+          "value": "arXiv:2405.12904v3",
+          "kind": "citation",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 300,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: The submission deadline is 2026-12-04 at 17:00 UTC. N",
+      "explanation": "Partially kept: 1 of 2 fact values survived verbatim but `Kaggle:longctx-2026` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s006-p04",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s006",
+      "question": "What is the canonical source of the evaluation dataset?",
+      "reference_answer": "Kaggle:longctx-2026",
+      "answer_text": "I don't know.",
+      "full_context_answer": "Kaggle:longctx-2026.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "Kaggle:longctx-2026",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 300,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: The submission deadline is 2026-12-04 at 17:00 UTC. N",
+      "explanation": "The compressed memory dropped `Kaggle:longctx-2026` entirely (deep_buried, background, mentioned 1x), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s006-p07",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s006",
+      "question": "Which version was pinned for this work?",
+      "reference_answer": "v2.0.1",
+      "answer_text": "arXiv:2405.12904v3 (Okafor et al.)",
+      "full_context_answer": "v2.0.1 of the benchmark harness.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "v2.0.1",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 265,
+      "compressed_snippet": "SSISTANT: Evaluate against benchmark harness v2.0.1. - ASSISTANT: Evaluation data: Kaggle:",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s006-p09",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s006",
+      "question": "Which dataset source are we evaluating on, and which version of the harness are we using?",
+      "reference_answer": "Kaggle:longctx-2026; v2.0.1",
+      "answer_text": "Harness version: v2.0.1. Dataset source: I don't know.",
+      "full_context_answer": "Kaggle:longctx-2026, with the v2.0.1 release of the benchmark harness.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "Kaggle:longctx-2026",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f02",
+          "value": "v2.0.1",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 300,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: The submission deadline is 2026-12-04 at 17:00 UTC. N",
+      "explanation": "Partially kept: 1 of 2 fact values survived verbatim but `Kaggle:longctx-2026` did not, so a multi_hop question needing all of them failed."
+    },
+    {
+      "probe_id": "s007-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s007",
+      "question": "What standing preference did the user state? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "imperial units only",
+      "answer_text": "Lunch at 13:00.",
+      "full_context_answer": "Imperial units only.",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 346,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to imperial units only.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s008-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s008",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: reorganise the weekly schedule around the new constraints. Settled on: max two trips per quarter; 24-hour clock; no meetings before 10am",
+      "answer_text": "The session was a routine review to keep project notes and scheduling constraints current. Settled items: renewal date updated to 2026-11-20, 24-hour clock, no meetings before 10am, no weekend work, max two trips per quarter, and the shared calendar on shared-drive.local syncing nightly.",
+      "full_context_answer": "Objective: reorganise the weekly schedule around the new constraints. Concrete choices settled: 24-hour clock, no meetings before 10am, no weekend work, max two trips per quarter, and the subscription renewal date updated to 2026-11-20 (replacing 2026-11-21).",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "max two trips per quarter",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "no meetings before 10am",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 292,
+      "compressed_snippet": "r the last pass. There is a hard limit here: max two trips per quarter. USER: Appreciate t",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s008-p00",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s008",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: reorganise the weekly schedule around the new constraints. Settled on: max two trips per quarter; 24-hour clock; no meetings before 10am",
+      "answer_text": "Session objective: routine status maintenance (verifying todo list, inbox, and calendar — all unchanged, no urgent items) alongside configuration setup. Settled choices: subscription renewal date 2026-11-20 (superseding 2026-11-21), 24-hour clock, no meetings before 10am, max two trips per quarter, no weekend work, and shared calendar at shared-drive.local syncing nightly.",
+      "full_context_answer": "Objective: reorganise the weekly schedule around the new constraints. Concrete choices settled: 24-hour clock, no meetings before 10am, no weekend work, max two trips per quarter, and the subscription renewal date updated to 2026-11-20 (replacing 2026-11-21).",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "max two trips per quarter",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "no meetings before 10am",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 292,
+      "compressed_snippet": "STANT: No meetings before 10am. - ASSISTANT: Max two trips per quarter (hard limit). - ASS",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s008-p05",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s008",
+      "question": "What hard constraint applies to any solution we ship?",
+      "reference_answer": "no weekend work",
+      "answer_text": "I don't know.",
+      "full_context_answer": "Max two trips per quarter, and no weekend work.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 292,
+      "compressed_snippet": "fore. ASSISTANT: There is a hard limit here: no weekend work. ASSISTANT: I will keep the s",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer refused to answer — a retrieval/formatting failure rather than a content loss."
+    },
+    {
+      "probe_id": "s008-p05",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s008",
+      "question": "What hard constraint applies to any solution we ship?",
+      "reference_answer": "no weekend work",
+      "answer_text": "Max two trips per quarter (hard limit).",
+      "full_context_answer": "Max two trips per quarter, and no weekend work.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 292,
+      "compressed_snippet": "trips per quarter (hard limit). - ASSISTANT: No weekend work. - ASSISTANT: Shared calendar",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s008-p06",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s008",
+      "question": "What standing preference did the user state?",
+      "reference_answer": "24-hour clock",
+      "answer_text": "A recurring status check at the same cadence, with the todo list and calendar unchanged (no anomalies or urgent items).",
+      "full_context_answer": "The standing preference is to use the 24-hour clock in everything the assistant sends.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 292,
+      "compressed_snippet": "20 (supersedes 2026-11-21). - ASSISTANT: Use 24-hour clock in all communications. - ASSIST",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s008-p08",
+      "kind": "multi_hop",
+      "strategy": "summary_hierarchical",
+      "session_id": "s008",
+      "question": "Which standing preference did the user give, and what hard limit applies?",
+      "reference_answer": "24-hour clock; no weekend work",
+      "answer_text": "The user's standing preference is a recurring status check at the same cadence; the hard limit is a maximum of two trips per quarter.",
+      "full_context_answer": "Standing preferences: use a 24-hour clock, and no meetings before 10am. Hard limits: no weekend work and a maximum of two trips per quarter.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 292,
+      "compressed_snippet": "20 (supersedes 2026-11-21). - ASSISTANT: Use 24-hour clock in all communications. - ASSIST",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s008-p09",
+      "kind": "multi_hop",
+      "strategy": "summary_hierarchical",
+      "session_id": "s008",
+      "question": "Two details from this session: What hard constraint applies to any solution we ship? And: What standing preference did the user state?",
+      "reference_answer": "no weekend work; 24-hour clock",
+      "answer_text": "Hard constraint: max two trips per quarter (hard limit). Standing preference: recurring status check at the same cadence.",
+      "full_context_answer": "Hard constraints: max two trips per quarter and no weekend work. Standing preference: use the 24-hour clock.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 292,
+      "compressed_snippet": "trips per quarter (hard limit). - ASSISTANT: No weekend work. - ASSISTANT: Shared calendar",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s010-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s010",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: migrate the service to the new build system. Settled on: pip-tools; no-native-extensions; pg-staging-7.internal:6432",
+      "answer_text": "Objective: preparing configuration for a migration/deployment. Settled choices: runtime pinned to v3.1.4, pip-tools as package manager (replacing poetry), production env file /opt/config/.env.current (replacing /etc/app/env.prod), staging DB pg-staging-7.internal:6432, API key from /run/secrets/svc_api_key (never committed), and a hard no-native-extensions constraint.",
+      "full_context_answer": "Objective: migrate the service to the new build system. Choices settled: runtime pinned to v3.1.4, package manager pip-tools (superseding the earlier poetry choice), staging database pg-staging-7.internal:6432, production env file updated to /opt/config/.env.current, API key loaded from /run/secrets/svc_api_key (never committed), and a hard constraint of no-native-extensions.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "pip-tools",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "no-native-extensions",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "pg-staging-7.internal:6432",
+          "kind": "host",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 320,
+      "compressed_snippet": "s what we use. ASSISTANT: We standardised on pip-tools as the package manager for this rep",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s010-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s010",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "v3.1.4; /run/secrets/svc_api_key; poetry",
+      "answer_text": "I don't know.",
+      "full_context_answer": "For the build-system migration, the session pinned the runtime to v3.1.4, standardised the package manager on pip-tools (after initially poetry), and set the constraint no-native-extensions for anything shipped; it also recorded the staging database at pg-staging-7.internal:6432, the API key loaded from /run/secrets/svc_api_key, and the updated production env file path /opt/config/.env.current (replacing /etc/app/env.prod).",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "v3.1.4",
+          "kind": "version",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "/run/secrets/svc_api_key",
+          "kind": "api_key_location",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "poetry",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 320,
+      "compressed_snippet": "e on my side. ASSISTANT: Still the case that v3.1.4 is what we use. ASSISTANT: We standard",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer refused to answer — a retrieval/formatting failure rather than a content loss."
+    },
+    {
+      "probe_id": "s010-p01",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s010",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "v3.1.4; /run/secrets/svc_api_key; poetry",
+      "answer_text": "The session recorded: runtime pinned to v3.1.4 (for the migration), pip-tools as the repo's package manager, /opt/config/.env.current as the production env file, pg-staging-7.internal:6432 as the staging database, the API key sourced from /run/secrets/svc_api_key (never committed), and a hard no-native-extensions constraint — all in support of migrating the service to the new build system, though no further per-decision rationale is recorded.",
+      "full_context_answer": "For the build-system migration, the session pinned the runtime to v3.1.4, standardised the package manager on pip-tools (after initially poetry), and set the constraint no-native-extensions for anything shipped; it also recorded the staging database at pg-staging-7.internal:6432, the API key loaded from /run/secrets/svc_api_key, and the updated production env file path /opt/config/.env.current (replacing /etc/app/env.prod).",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "v3.1.4",
+          "kind": "version",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "/run/secrets/svc_api_key",
+          "kind": "api_key_location",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "poetry",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 318,
+      "compressed_snippet": "superseded). - ASSISTANT: Runtime pinned to v3.1.4 for the migration. - ASSISTANT: API ke",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s011-p02",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s011",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "pip-tools",
+      "answer_text": "Yes: the staging database endpoint was revised from pg-staging-7.internal:6432 to db-stage-02.internal:5433, and the production environment file is now /opt/svc/config/.env.production (replacing the earlier /etc/app/env.prod).",
+      "full_context_answer": "Yes — the package manager was revised: poetry was replaced by pip-tools, which is now the standard for this repo. Everything else in the hardening plan is unchanged.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "pip-tools",
+          "kind": "package",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 323,
+      "compressed_snippet": "USER: We standardised on poetry as the package manager for this repo. USER: Appreciate the",
+      "explanation": "The compressed memory dropped `pip-tools` entirely (standalone, foreground, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s011-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s011",
+      "question": "Which package manager did the team standardise on? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "pip-tools",
+      "answer_text": "poetry",
+      "full_context_answer": "pip-tools.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "pip-tools",
+          "kind": "package",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 323,
+      "compressed_snippet": "USER: We standardised on poetry as the package manager for this repo. USER: Appreciate the",
+      "explanation": "The compressed memory dropped `pip-tools` entirely (standalone, foreground, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s011-p08",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s011",
+      "question": "Which package manager did we standardise on, and which version did we pin?",
+      "reference_answer": "pip-tools; v3.1.4",
+      "answer_text": "Poetry, with the runtime pinned to v3.1.4.",
+      "full_context_answer": "pip-tools (updated from poetry), with the runtime pinned to v3.1.4.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "pip-tools",
+          "kind": "package",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f05",
+          "value": "v3.1.4",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 323,
+      "compressed_snippet": "USER: We standardised on poetry as the package manager for this repo. USER: Appreciate the",
+      "explanation": "Partially kept: 1 of 2 fact values survived verbatim but `pip-tools` did not, so a multi_hop question needing all of them failed."
+    },
+    {
+      "probe_id": "s012-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s012",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: migrate the service to the new build system. Settled on: no-new-deps; /run/secrets/svc_api_key; db-stage-02.internal:5433",
+      "answer_text": "Objective appears to be a migration (runtime pinned for it) with CI validation; settled choices: package manager pdm (a later note mentions pip-tools), API key from /run/secrets/svc_api_key, hard constraints python>=3.12 and no-new-deps, runtime pinned to v1.9.7, staging DB db-stage-02.internal:5433, and prod env file /etc/app/env.prod.",
+      "full_context_answer": "Objective: migrate the service to the new build system. Choices settled: package manager pip-tools (superseding the earlier pdm), runtime pinned to v1.9.7, hard constraints python>=3.12 and no-new-deps, API key loaded from /run/secrets/svc_api_key (never committed), staging DB db-stage-02.internal:5433, and production env file /etc/app/env.prod.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "no-new-deps",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "/run/secrets/svc_api_key",
+          "kind": "api_key_location",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "db-stage-02.internal:5433",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 374,
+      "compressed_snippet": "r the last pass. There is a hard constraint: no-new-deps must hold for any solution we shi",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s012-p09",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s012",
+      "question": "Which package manager did we standardise on, and which version did we pin?",
+      "reference_answer": "pip-tools; v1.9.7",
+      "answer_text": "pdm, and we pinned the runtime to v1.9.7.",
+      "full_context_answer": "pip-tools (updated from the out-of-date pdm), and the runtime is pinned to v1.9.7.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "pip-tools",
+          "kind": "package",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f05",
+          "value": "v1.9.7",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 374,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to pip-tools.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s013-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s013",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "poetry; no-native-extensions; pg-staging-7.internal:6432",
+      "answer_text": "The session pinned the runtime to v2.2.0 for the migration, standardised on poetry as the package manager, enforced a no-native-extensions constraint on anything shipped, and kept the API key out of the repo by loading it from /run/secrets/svc_api_key. It also records the production env file now at /opt/config/.env.current and the staging database reachable at db-stage-02.internal:5433.",
+      "full_context_answer": "The session recorded these decisions/facts: poetry as the repo's package manager, a hard no-native-extensions constraint for anything shipped, the runtime pinned for the migration (v3.1.4, later noted as v2.2.0), the production env file updated to /opt/config/.env.current (replacing /opt/svc/config/.env.production), the staging database endpoint (pg-staging-7.internal:6432, later db-stage-02.internal:5433), and the API key loaded from /run/secrets/svc_api_key rather than committed. These all support the overall goal of hardening the deployment path before the release freeze.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "poetry",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "no-native-extensions",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "pg-staging-7.internal:6432",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 360,
+      "compressed_snippet": "y solution we ship. USER: We standardised on poetry as the package manager for this repo.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s013-p01",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s013",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "poetry; no-native-extensions; pg-staging-7.internal:6432",
+      "answer_text": "All decisions were for hardening the deployment path before release freeze: enforce no-native-extensions for shipped solutions, standardize on poetry, pin the migration runtime to v2.2.0, use /opt/config/.env.current as the production env file, load the API key from /run/secrets/svc_api_key (never committed), and point staging to db-stage-02.internal:5433.",
+      "full_context_answer": "The session recorded these decisions/facts: poetry as the repo's package manager, a hard no-native-extensions constraint for anything shipped, the runtime pinned for the migration (v3.1.4, later noted as v2.2.0), the production env file updated to /opt/config/.env.current (replacing /opt/svc/config/.env.production), the staging database endpoint (pg-staging-7.internal:6432, later db-stage-02.internal:5433), and the API key loaded from /run/secrets/svc_api_key rather than committed. These all support the overall goal of hardening the deployment path before the release freeze.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "poetry",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "no-native-extensions",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "pg-staging-7.internal:6432",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 364,
+      "compressed_snippet": "- USER: Repo package manager standardized on poetry. - ASSISTANT: Production env file is /",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s014-p05",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s014",
+      "question": "What hard constraint applies to any solution we ship?",
+      "reference_answer": "max-8k-context",
+      "answer_text": "Any solution must be evaluated against the Zenodo dataset Zenodo:10.5281/zenodo.8123456 — that evaluation data cannot be substituted.",
+      "full_context_answer": "The review criteria require two hard constraints: max-8k-context and no-proprietary-data, both of which our method has to respect.",
+      "facts": [
+        {
+          "fact_id": "f08",
+          "value": "max-8k-context",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 377,
+      "compressed_snippet": "ASSISTANT: Just to keep it on record: 2026-11-28. ASSISTANT: Quick note on the current con",
+      "explanation": "The compressed memory dropped `max-8k-context` entirely (embedded, background, mentioned 2x), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s015-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s015",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: draft the related-work section for the compression paper. Settled on: v0.9.2; Zenodo:10.5281/zenodo.8123456; max-8k-context",
+      "answer_text": "The session was a steady-state maintenance pass on the notes, references, and saved search for an upcoming submission, with no new sources or changes found. Concrete choices settled: evaluation data stays Zenodo:10.5281/zenodo.8123456, the submission deadline is 2026-11-28 at 17:00 UTC, the method must respect the review criteria's max-8k-context requirement, evaluation runs against benchmark harness v1.4.0, and the note tracks arXiv:2311.04412v1.",
+      "full_context_answer": "Objective: draft the related-work section for the compression paper. Settled choices: cite arXiv:2311.04412v1 (superseding arXiv:2405.12904v3), use evaluation data from Zenodo:10.5281/zenodo.8123456 and HuggingFace:open-mem/bench-v2 (neither to be substituted), evaluate against the benchmark harness releases v0.9.2 then v1.4.0, respect the max-8k-context review criterion, and target the 2026-11-28 17:00 UTC submission deadline.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "v0.9.2",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f02",
+          "value": "Zenodo:10.5281/zenodo.8123456",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "max-8k-context",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 423,
+      "compressed_snippet": "ASSISTANT: Happy to help. USER: Just confirming the notes are unchanged: same sources, sam",
+      "explanation": "Partially kept: 2 of 3 fact values survived verbatim but `v0.9.2` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s015-p00",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s015",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: draft the related-work section for the compression paper. Settled on: v0.9.2; Zenodo:10.5281/zenodo.8123456; max-8k-context",
+      "answer_text": "Objective: draft the related-work section for the compression paper. Settled choices: cite arXiv:2311.04412v1 (superseding arXiv:2405.12904v3), evaluate on benchmark harness v1.4.0 with HuggingFace:open-mem/bench-v2, respect max-8k-context, deadline 2026-11-28 17:00 UTC.",
+      "full_context_answer": "Objective: draft the related-work section for the compression paper. Settled choices: cite arXiv:2311.04412v1 (superseding arXiv:2405.12904v3), use evaluation data from Zenodo:10.5281/zenodo.8123456 and HuggingFace:open-mem/bench-v2 (neither to be substituted), evaluate against the benchmark harness releases v0.9.2 then v1.4.0, respect the max-8k-context review criterion, and target the 2026-11-28 17:00 UTC submission deadline.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "v0.9.2",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "Zenodo:10.5281/zenodo.8123456",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "max-8k-context",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 420,
+      "compressed_snippet": "against benchmark harness v1.4.0 (supersedes v0.9.2); logs/config re-checked, stable, no a",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s015-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s015",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "2026-11-28; v1.4.0; HuggingFace:open-mem/bench-v2",
+      "answer_text": "Key decisions recorded: use Zenodo:10.5281/zenodo.8123456 as the evaluation data source (not to be substituted), evaluate against benchmark harness v1.4.0, and ensure the method respects the max-8k-context requirement imposed by the review criteria — with a submission deadline of 2026-11-28 at 17:00 UTC and notes updated to arXiv:2311.04412v1.",
+      "full_context_answer": "For drafting the related-work section of the compression paper: cite arXiv:2311.04412v1 (updated from arXiv:2405.12904v3), use the evaluation dataset HuggingFace:open-mem/bench-v2 (earlier recorded as Zenodo:10.5281/zenodo.8123456, not to be substituted), evaluate against benchmark harness v1.4.0 (earlier v0.9.2), respect the review criterion max-8k-context, and meet the submission deadline of 2026-11-28 17:00 UTC.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "2026-11-28",
+          "kind": "date",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "v1.4.0",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "HuggingFace:open-mem/bench-v2",
+          "kind": "dataset_source",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 423,
+      "compressed_snippet": "er the last pass. The submission deadline is 2026-11-28 at 17:00 UTC. I will leave that as",
+      "explanation": "Partially kept: 2 of 3 fact values survived verbatim but `HuggingFace:open-mem/bench-v2` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s015-p06",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s015",
+      "question": "What is the canonical source of the evaluation dataset?",
+      "reference_answer": "HuggingFace:open-mem/bench-v2",
+      "answer_text": "Zenodo:10.5281/zenodo.8123456.",
+      "full_context_answer": "HuggingFace:open-mem/bench-v2.",
+      "facts": [
+        {
+          "fact_id": "f07",
+          "value": "HuggingFace:open-mem/bench-v2",
+          "kind": "dataset_source",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 423,
+      "compressed_snippet": "ASSISTANT: Happy to help. USER: Just confirming the notes are unchanged: same sources, sam",
+      "explanation": "The compressed memory dropped `HuggingFace:open-mem/bench-v2` entirely (deep_buried, background, mentioned 2x), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s016-p02",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s016",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "max-4k-context",
+      "answer_text": "Yes — the submission deadline was updated from 2026-12-04 at 17:00 UTC to 2027-01-15 at 17:00 UTC, which is the current value. Everything else was re-confirmed unchanged (citing arXiv:2311.04412v2, evaluating against benchmark harness v2.0.1, no new papers).",
+      "full_context_answer": "Yes. The review-criteria constraint was revised: the original no-proprietary-data requirement was replaced with max-4k-context (an intermediate max-8k-context mention was also superseded). The current state is that the method must respect max-4k-context, while the task (drafting the related-work section) and the plan remain unchanged.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "max-4k-context",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 365,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: Re-confirming arXiv:2311.04412v2 before we move on. A",
+      "explanation": "The compressed memory dropped `max-4k-context` entirely (embedded, background, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s016-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s016",
+      "question": "What hard constraint applies to any solution we ship? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "max-4k-context",
+      "answer_text": "The submission deadline is 2027-01-15 at 17:00 UTC.",
+      "full_context_answer": "The hard constraint currently in effect is max-4k-context.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "max-4k-context",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 365,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: Re-confirming arXiv:2311.04412v2 before we move on. A",
+      "explanation": "The compressed memory dropped `max-4k-context` entirely (embedded, background, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s016-p04",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s016",
+      "question": "What is the canonical source of the evaluation dataset?",
+      "reference_answer": "HuggingFace:open-mem/bench-v2",
+      "answer_text": "I don't know.",
+      "full_context_answer": "HuggingFace:open-mem/bench-v2.",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "HuggingFace:open-mem/bench-v2",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 365,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: Re-confirming arXiv:2311.04412v2 before we move on. A",
+      "explanation": "The compressed memory dropped `HuggingFace:open-mem/bench-v2` entirely (deep_buried, background, mentioned 1x), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s017-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s017",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "tabs over spaces; budget cap 200 USD; no meetings before 10am",
+      "answer_text": "I don't know.",
+      "full_context_answer": "Recorded decisions/constraints: the shared calendar (the consolidation target) lives on home-nas.local (later also family-calendar.internal) and syncs nightly; hard limits/preferences: budget cap 200 USD, subscription renewal 2026-11-21 (later 2026-12-02), no calls on Fridays (later superseded by \"imperial units only\"), no meetings before 10am, max two trips per quarter, and tabs over spaces.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "tabs over spaces",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "budget cap 200 USD",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "no meetings before 10am",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 410,
+      "compressed_snippet": "y to help. ASSISTANT: A standing preference: tabs over spaces in everything I send you. US",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer refused to answer — a retrieval/formatting failure rather than a content loss."
+    },
+    {
+      "probe_id": "s017-p02",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s017",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "imperial units only",
+      "answer_text": "Yes — the subscription renewal date was revised from 2026-11-21 to 2026-12-02. Current state: renewal date is 2026-12-02 and must not be allowed to lapse.",
+      "full_context_answer": "Yes — the \"no calls on Fridays\" preference was superseded: the user said to forget the old value, and the current state is \"imperial units only.\" All other preferences and details remain unchanged.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 407,
+      "compressed_snippet": "dropped, nothing grew in scope. - USER: Use imperial units only; previous \"no calls on Fr",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s017-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s017",
+      "question": "What standing preference did the user state? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "imperial units only",
+      "answer_text": "Tabs over spaces in everything sent.",
+      "full_context_answer": "Imperial units only (the earlier \"no calls on Fridays\" preference is out of date).",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 410,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to imperial units only.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s017-p06",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s017",
+      "question": "What standing preference did the user state?",
+      "reference_answer": "tabs over spaces",
+      "answer_text": "Use imperial units only (this supersedes the earlier \"no calls on Fridays\" preference, which is out of date).",
+      "full_context_answer": "Imperial units only (superseding the earlier \"no calls on Fridays\"), along with tabs over spaces in everything sent to the user.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "tabs over spaces",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 407,
+      "compressed_snippet": "ANT: Max two trips per quarter. - ASSISTANT: Tabs over spaces in everything sent to user;",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s017-p08",
+      "kind": "multi_hop",
+      "strategy": "summary_hierarchical",
+      "session_id": "s017",
+      "question": "Which standing preference did the user give, and what hard limit applies?",
+      "reference_answer": "imperial units only; budget cap 200 USD",
+      "answer_text": "Standing preference: tabs over spaces in everything sent to the user (user confirmed: \"Okay, sounds good to me\"); hard limit: budget cap of 200 USD.",
+      "full_context_answer": "Standing preference: imperial units only (it replaced the earlier \"no calls on Fridays\"; other preferences noted were tabs over spaces and no meetings before 10am). Hard limits: budget cap of 200 USD and a maximum of two trips per quarter.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "budget cap 200 USD",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 407,
+      "compressed_snippet": "dropped, nothing grew in scope. - USER: Use imperial units only; previous \"no calls on Fr",
+      "explanation": "Partially kept: 1 of 2 fact values survived verbatim but `budget cap 200 USD` did not, so a multi_hop question needing all of them failed."
+    },
+    {
+      "probe_id": "s018-p01",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s018",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "home-nas.local; 24-hour clock; 2026-12-02",
+      "answer_text": "Decisions recorded: host the shared calendar on home-nas.local with nightly sync, keep scheduling rules of no calls on Fridays and no meetings before 10am, track the subscription renewal as 2026-12-02 (superseding 2026-11-21), and set the budget cap to 150 USD (superseding 200 USD) — all to support the reminder plan so nothing lapses this quarter.",
+      "full_context_answer": "Decisions recorded: use a 24-hour clock; keep the shared calendar on home-nas.local (syncs nightly); track the subscription renewal date (first 2026-11-21, later corrected to 2026-12-02) so it doesn't lapse; and honor scheduling constraints — no calls on Fridays and no meetings before 10am. The budget cap was set at 200 USD then updated to 150 USD, and the earlier \"no weekend work\" limit was superseded.",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "home-nas.local",
+          "kind": "host",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f05",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "2026-12-02",
+          "kind": "date",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 279,
+      "compressed_snippet": "10am. - ASSISTANT: Shared calendar lives on home-nas.local (host); syncs nightly. - ASSIS",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s019-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s019",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: set up reminders so nothing lapses this quarter. Settled on: max two trips per quarter; lunch at 13:00; 24-hour clock",
+      "answer_text": "The session focused on recording and maintaining configuration details for the user's shared calendar and subscription. Concrete choices settled on: calendar hosted on home-nas.local with nightly sync, subscription renewal date 2026-12-02, imperial units only, no weekend work, max two trips per quarter, no calls on Fridays, and lunch at 13:00.",
+      "full_context_answer": "Objective: set up reminders so nothing lapses this quarter. Settled choices: imperial units only (replacing the earlier metric-only preference), 24-hour clock, no weekend work, no calls on Fridays, lunch at 13:00, max two trips per quarter, subscription renewal date 2026-12-02, and the shared calendar on home-nas.local syncing nightly.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "max two trips per quarter",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "lunch at 13:00",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 357,
+      "compressed_snippet": "r the last pass. There is a hard limit here: max two trips per quarter. ASSISTANT: Just to",
+      "explanation": "Partially kept: 2 of 3 fact values survived verbatim but `24-hour clock` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s019-p02",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s019",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "imperial units only",
+      "answer_text": "Yes — the subscription renewal date was revised from 2026-11-30 (superseded) to 2026-12-02, which is the current date to not let lapse.",
+      "full_context_answer": "Yes — the units preference was revised from metric units only to imperial units only, which is now the current standing preference. Also, the subscription renewal date was later stated as 2026-12-02, superseding the earlier 2026-11-30.",
+      "facts": [
+        {
+          "fact_id": "f08",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 352,
+      "compressed_snippet": "- USER: Goal: reminders so nothing lapses this quarter. - USER: Units: imperial only; earl",
+      "explanation": "The compressed memory dropped `imperial units only` entirely (standalone, foreground, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s019-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s019",
+      "question": "What standing preference did the user state? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "imperial units only",
+      "answer_text": "Metric units only.",
+      "full_context_answer": "Imperial units only in everything the user sends.",
+      "facts": [
+        {
+          "fact_id": "f08",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 357,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to imperial units only.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s020-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s020",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: cut CI time by consolidating the test matrix. Settled on: python>=3.12; /run/secrets/svc_api_key; v1.9.7",
+      "answer_text": "Objective: a migration/build effort (the memory doesn't state it more specifically); settled choices: Python >= 3.12 hard constraint, pip-tools as package manager, API key from /run/secrets/svc_api_key (never committed), production env at /srv/app/.env.prod, runtime pinned to v1.9.7, and staging DB at db-stage-02.internal:5433 (superseding staging-pg.internal:6432).",
+      "full_context_answer": "Objective: cut CI time by consolidating the test matrix. Choices settled: python>=3.12 as a hard constraint, pip-tools as the package manager, API key loaded from /run/secrets/svc_api_key (never committed), runtime pinned to v1.9.7 for the migration, production env file at /srv/app/.env.prod, and the staging database updated to db-stage-02.internal:5433 (replacing the outdated staging-pg.internal:6432).",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "python>=3.12",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "/run/secrets/svc_api_key",
+          "kind": "api_key_location",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "v1.9.7",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 326,
+      "compressed_snippet": "r the last pass. There is a hard constraint: python>=3.12 must hold for any solution we sh",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s020-p01",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s020",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "pip-tools; /srv/app/.env.prod",
+      "answer_text": "Key decisions: consolidate the test matrix to cut CI time; switch to the newer staging DB (db-stage-02.internal:5433); load the API key from /run/secrets/svc_api_key instead of committing it; standardise on pip-tools; require Python ≥3.12 for shipped solutions; pin the migration runtime to v1.9.7.",
+      "full_context_answer": "The session's decisions were: enforce python>=3.12, standardize on pip-tools as the package manager, keep the API key in /run/secrets/svc_api_key (never committed), pin the runtime to v1.9.7 for the migration, note the production env file at /srv/app/.env.prod, and update the staging database endpoint to db-stage-02.internal:5433 (replacing staging-pg.internal:6432) — all in support of cutting CI time by consolidating the test matrix.",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "pip-tools",
+          "kind": "package",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f05",
+          "value": "/srv/app/.env.prod",
+          "kind": "path",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 327,
+      "compressed_snippet": "old otherwise. - ASSISTANT: Package manager: pip-tools standardised for this repo. - ASSIS",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s021-p02",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s021",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "/opt/config/.env.current",
+      "answer_text": "Yes — the production environment file location was revised from /opt/svc/config/.env.production to /etc/app/env.prod (the assistant noted the update in /opt/config/.env.current). Additionally, the package manager is contradictory: the user stated poetry while the assistant stated uv, so the current package manager is unresolved.",
+      "full_context_answer": "Yes — the production environment file location was revised: it started as /opt/svc/config/.env.production, was briefly given as /etc/app/env.prod, and the latest update supersedes the old value with /opt/config/.env.current, which is the current state.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "/opt/config/.env.current",
+          "kind": "path",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 309,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to /opt/config/.env.current. Everything looks fi",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s021-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s021",
+      "question": "What is the full path of the production environment file? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "/opt/config/.env.current",
+      "answer_text": "/etc/app/env.prod",
+      "full_context_answer": "/opt/config/.env.current",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "/opt/config/.env.current",
+          "kind": "path",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 309,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to /opt/config/.env.current. Everything looks fi",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s021-p08",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s021",
+      "question": "There are two credential locations in play. Which path holds the production environment file, and where is the API key actually loaded from?",
+      "reference_answer": "/opt/config/.env.current; ~/secrets/openai.key",
+      "answer_text": "The production environment file is at /etc/app/env.prod, and the API key is loaded from ~/secrets/openai.key.",
+      "full_context_answer": "The production environment file is /opt/config/.env.current, and the API key is loaded from ~/secrets/openai.key.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "/opt/config/.env.current",
+          "kind": "path",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f04",
+          "value": "~/secrets/openai.key",
+          "kind": "api_key_location",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 309,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to /opt/config/.env.current. Everything looks fi",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s021-p09",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s021",
+      "question": "Which path holds the production environment file, and what is the staging database host:port?",
+      "reference_answer": "/opt/config/.env.current; staging-pg.internal:6432",
+      "answer_text": "The production environment file is at /etc/app/env.prod, and the staging database is reachable at staging-pg.internal:6432.",
+      "full_context_answer": "The production environment file is at /opt/config/.env.current, and the staging database is at staging-pg.internal:6432.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "/opt/config/.env.current",
+          "kind": "path",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "staging-pg.internal:6432",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 309,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to /opt/config/.env.current. Everything looks fi",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s022-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s022",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: harden the deployment path before the release freeze. Settled on: poetry; db-stage-02.internal:5433; /srv/app/.env.prod",
+      "answer_text": "The overall objective isn't recorded in the memory. Concrete choices that were settled: poetry as the package manager for this repo, and a hard constraint of python>=3.12 for any shipped solution.",
+      "full_context_answer": "Objective: harden the deployment path before the release freeze. Settled choices: runtime pinned at v2.1.0 (updated from v2.2.0), poetry as the package manager, API key loaded from ~/.config/svc/token.env (never committed), staging database at db-stage-02.internal:5433, production env file at /srv/app/.env.prod, and a hard constraint of python>=3.12.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "poetry",
+          "kind": "package",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "db-stage-02.internal:5433",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f04",
+          "value": "/srv/app/.env.prod",
+          "kind": "path",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 285,
+      "compressed_snippet": "ep me posted. ASSISTANT: Still the case that poetry is what we use. USER: Thanks, that hel",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s022-p08",
+      "kind": "multi_hop",
+      "strategy": "summary_hierarchical",
+      "session_id": "s022",
+      "question": "Which version did we pin, and what is the staging database host:port?",
+      "reference_answer": "v2.1.0; db-stage-02.internal:5433",
+      "answer_text": "v2.2.0; db-stage-02.internal:5433",
+      "full_context_answer": "v2.1.0, and the staging database is at db-stage-02.internal:5433.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "v2.1.0",
+          "kind": "version",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "db-stage-02.internal:5433",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 265,
+      "compressed_snippet": "2.2.0 (superseded by USER update); latest is v2.1.0, v2.2.0 out of date. - ASSISTANT: API",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s023-p02",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s023",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "db-stage-02.internal:5433",
+      "answer_text": "No — nothing was updated or revised this session; the working tree is clean, branch is in sync with remote, dependencies/env/toolchain are unchanged, and the pipeline remains healthy while still waiting on CI with no new blockers. (The only superseded items — db-stage-02.internal:5433 and /etc/app/env.prod — were established earlier, not in this session.)",
+      "full_context_answer": "Yes — the staging database address was revised from staging-pg.internal:6432 to db-stage-02.internal:5433, which is now the current value.",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "db-stage-02.internal:5433",
+          "kind": "host",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 257,
+      "compressed_snippet": "test matrix. - ASSISTANT: Staging DB latest: db-stage-02.internal:5433 (staging-pg.interna",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s023-p05",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s023",
+      "question": "What hard constraint applies to any solution we ship?",
+      "reference_answer": "python>=3.12",
+      "answer_text": "The hard constraint is that **no-native-extensions** must hold for any shipped solution.",
+      "full_context_answer": "Two hard constraints: no-native-extensions and python>=3.12.",
+      "facts": [
+        {
+          "fact_id": "f07",
+          "value": "python>=3.12",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 257,
+      "compressed_snippet": "for migration. - ASSISTANT: Hard constraint: python>=3.12 must hold. - USER: Repo standard",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s024-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s024",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: draft the related-work section for the compression paper. Settled on: no-proprietary-data; 2026-12-04; v2.0.1",
+      "answer_text": "The session was a verification pass on the paper/submission, confirming no changes across the reference list, saved search, library, and claim-to-source mappings. Concrete choices settled: evaluation data stays at Zenodo:10.5281/zenodo.8123456, the benchmark harness is pinned to v2.0.1, the deadline is 2026-12-04 at 17:00 UTC, and the citation was set to arXiv:2311.04412v1.",
+      "full_context_answer": "Objective: draft the related-work section for the compression paper. Settled choices: cite arXiv:2311.04412v1 by Okafor et al. (final value after updates), submission deadline 2026-12-04 at 17:00 UTC, respect the no-proprietary-data review criterion, use evaluation data from Zenodo:10.5281/zenodo.8123456, and evaluate against benchmark harness v2.0.1.",
+      "facts": [
+        {
+          "fact_id": "f02",
+          "value": "no-proprietary-data",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f03",
+          "value": "2026-12-04",
+          "kind": "date",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f04",
+          "value": "v2.0.1",
+          "kind": "version",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 326,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: Re-confirming 2026-12-04 before we move on. ASSISTANT",
+      "explanation": "Partially kept: 2 of 3 fact values survived verbatim but `no-proprietary-data` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s024-p07",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s024",
+      "question": "What is the canonical source of the evaluation dataset?",
+      "reference_answer": "Zenodo:10.5281/zenodo.8123456",
+      "answer_text": "I don't know.",
+      "full_context_answer": "The evaluation data comes from Zenodo:10.5281/zenodo.8123456, which should not be substituted.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "Zenodo:10.5281/zenodo.8123456",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 254,
+      "compressed_snippet": "adline 2026-12-04 17:00 UTC; evaluation data Zenodo:10.5281/zenodo.8123456 must not substi",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer refused to answer — a retrieval/formatting failure rather than a content loss."
+    },
+    {
+      "probe_id": "s025-p02",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s025",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "multi-GPU-only",
+      "answer_text": "No — nothing was updated or revised. All checks came back unchanged: no new papers in the saved search, the reading list and backlog are stable, and the reference list shows the same entries as before.",
+      "full_context_answer": "Yes — the review-criteria constraint was revised: the original max-8k-context requirement is out of date and was replaced. The current state is that the method must be multi-GPU-only.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "multi-GPU-only",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 311,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "The compressed memory dropped `multi-GPU-only` entirely (embedded, background, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s025-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s025",
+      "question": "What hard constraint applies to any solution we ship? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "multi-GPU-only",
+      "answer_text": "The method must be single-GPU-only, per the review criteria.",
+      "full_context_answer": "Multi-GPU-only.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "multi-GPU-only",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 311,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "The compressed memory dropped `multi-GPU-only` entirely (embedded, background, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s025-p04",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s025",
+      "question": "What is the canonical source of the evaluation dataset?",
+      "reference_answer": "HuggingFace:open-mem/bench-v2",
+      "answer_text": "I don't know.",
+      "full_context_answer": "HuggingFace:open-mem/bench-v2",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "HuggingFace:open-mem/bench-v2",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 311,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "The compressed memory dropped `HuggingFace:open-mem/bench-v2` entirely (deep_buried, background, mentioned 1x), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s025-p09",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s025",
+      "question": "Which dataset source are we evaluating on, and which version of the harness are we using?",
+      "reference_answer": "HuggingFace:open-mem/bench-v2; v1.4.0",
+      "answer_text": "The harness is v1.4.0; the dataset source isn't in my memory (I don't know).",
+      "full_context_answer": "HuggingFace:open-mem/bench-v2, with benchmark harness v1.4.0.",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "HuggingFace:open-mem/bench-v2",
+          "kind": "dataset_source",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": false
+        },
+        {
+          "fact_id": "f02",
+          "value": "v1.4.0",
+          "kind": "version",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 311,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "Partially kept: 1 of 2 fact values survived verbatim but `HuggingFace:open-mem/bench-v2` did not, so a multi_hop question needing all of them failed."
+    },
+    {
+      "probe_id": "s026-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s026",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "2026-12-04; arXiv:2405.12904v3; no-proprietary-data",
+      "answer_text": "Decisions recorded: use the Zenodo dataset 10.5281/zenodo.8123456 for evaluation (must not be substituted), run single-GPU-only per the review criteria, evaluate against benchmark harness v1.4.0, and cite arXiv:2405.12904v3 (Okafor et al.) as the key paper — all in service of reproducing the baseline numbers before the 2026-12-04 17:00 UTC deadline.",
+      "full_context_answer": "Decisions recorded: evaluation data = HuggingFace:open-mem/bench-v1 (successively replacing Zenodo:10.5281/zenodo.8123456, then bench-v2), benchmark harness = v1.4.0, key citation = arXiv:2405.12904v3 (Okafor et al.), and constraints = single-GPU-only and no-proprietary-data. All were set to reproduce the baseline numbers before the 2026-12-04 17:00 UTC submission deadline.",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "2026-12-04",
+          "kind": "date",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f05",
+          "value": "arXiv:2405.12904v3",
+          "kind": "citation",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "no-proprietary-data",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 428,
+      "compressed_snippet": "updates on my side. ASSISTANT: Re-confirming 2026-12-04 before we move on. USER: The key p",
+      "explanation": "Partially kept: 2 of 3 fact values survived verbatim but `no-proprietary-data` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s026-p01",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s026",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "2026-12-04; arXiv:2405.12904v3; no-proprietary-data",
+      "answer_text": "Technical decisions: pinned benchmark harness v1.4.0 and evaluation data HuggingFace:open-mem/bench-v1 (superseding harness v0.9.2, bench-v2, and Zenodo:10.5281/zenodo.8123456, not to be substituted) to ensure one consistent, reproducible setup for the baseline reproduction, under single-GPU-only / no-proprietary-data constraints, ahead of the 2026-12-04 17:00 UTC deadline. Operational checks: saved search re-run, citation keys, and logs/config were verified stable and unchanged to keep results traceable.",
+      "full_context_answer": "Decisions recorded: evaluation data = HuggingFace:open-mem/bench-v1 (successively replacing Zenodo:10.5281/zenodo.8123456, then bench-v2), benchmark harness = v1.4.0, key citation = arXiv:2405.12904v3 (Okafor et al.), and constraints = single-GPU-only and no-proprietary-data. All were set to reproduce the baseline numbers before the 2026-12-04 17:00 UTC submission deadline.",
+      "facts": [
+        {
+          "fact_id": "f04",
+          "value": "2026-12-04",
+          "kind": "date",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f05",
+          "value": "arXiv:2405.12904v3",
+          "kind": "citation",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "no-proprietary-data",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 329,
+      "compressed_snippet": "bers before deadline. - ASSISTANT: Deadline: 2026-12-04 17:00 UTC. - ASSISTANT: Benchmark",
+      "explanation": "Partially kept: 2 of 3 fact values survived verbatim but `no-proprietary-data` did not, so a high_level question needing all of them failed."
+    },
+    {
+      "probe_id": "s026-p02",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s026",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "HuggingFace:open-mem/bench-v1",
+      "answer_text": "No—nothing was updated or revised; the library, citation keys, reference list, saved search, and plan all remained unchanged. The current state: reproducing baseline numbers before the 2026-12-04 17:00 UTC deadline, using Zenodo:10.5281/zenodo.8123456, citing arXiv:2405.12904v3 (Okafor et al.), evaluating against benchmark harness v1.4.0 under a single-GPU-only constraint.",
+      "full_context_answer": "Yes — the evaluation data was revised from Zenodo:10.5281/zenodo.8123456 (and the interim HuggingFace:open-mem/bench-v2) to HuggingFace:open-mem/bench-v1, which is now the current value.",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "HuggingFace:open-mem/bench-v1",
+          "kind": "dataset_source",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 428,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "The compressed memory dropped `HuggingFace:open-mem/bench-v1` entirely (deep_buried, background, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s026-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s026",
+      "question": "What is the canonical source of the evaluation dataset? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "HuggingFace:open-mem/bench-v1",
+      "answer_text": "Zenodo:10.5281/zenodo.8123456",
+      "full_context_answer": "HuggingFace:open-mem/bench-v1",
+      "facts": [
+        {
+          "fact_id": "f06",
+          "value": "HuggingFace:open-mem/bench-v1",
+          "kind": "dataset_source",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 428,
+      "compressed_snippet": "USER: Let's get started on this: I need to reproduce the baseline numbers before the deadl",
+      "explanation": "The compressed memory dropped `HuggingFace:open-mem/bench-v1` entirely (deep_buried, background, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s027-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s027",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: reorganise the weekly schedule around the new constraints. Settled on: 2026-11-30; lunch at 13:00; no weekend work",
+      "answer_text": "The session's objective was maintaining the subscription schedule and shared setup. Settled choices: no weekend work, lunch at 13:00, subscription renewal date of 2026-11-30 (last stated, updated from 2026-11-21), a shared calendar on shared-drive.local syncing nightly, and notes kept in imperial units only.",
+      "full_context_answer": "Objective: reorganise the weekly schedule around the new constraints. Settled choices/preferences: imperial units only (superseding the earlier 24-hour clock preference), no weekend work, lunch at 13:00, no calls on Fridays, subscription renewal date 2026-11-30 (the later stated date), and the shared calendar lives on shared-drive.local with nightly sync.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "2026-11-30",
+          "kind": "date",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "lunch at 13:00",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f04",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 357,
+      "compressed_snippet": "er. The renewal date for the subscription is 2026-11-30, please do not let it lapse. USER:",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s027-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s027",
+      "question": "What standing preference did the user state? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "imperial units only",
+      "answer_text": "The subscription renewal date currently in effect is 2026-11-30.",
+      "full_context_answer": "Imperial units only (it replaced the earlier metric-only and 24-hour clock preferences).",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 357,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to imperial units only.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s027-p03",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s027",
+      "question": "What standing preference did the user state? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "imperial units only",
+      "answer_text": "Lunch at 1:00 PM (the 13:00/24-hour notation is superseded), plus no weekend work (hard limit) and no calls on Fridays.",
+      "full_context_answer": "Imperial units only (it replaced the earlier metric-only and 24-hour clock preferences).",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 341,
+      "compressed_snippet": "calls on Fridays. - USER: Latest preference: imperial units only; metric units superseded;",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s027-p08",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s027",
+      "question": "Which standing preference did the user give, and what hard limit applies?",
+      "reference_answer": "imperial units only; no weekend work",
+      "answer_text": "Lunch at 13:00, and the hard limit is no weekend work.",
+      "full_context_answer": "The current standing preference is imperial units only (it superseded the earlier 24-hour clock and metric-units preferences); the hard limit is no weekend work.",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f04",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 357,
+      "compressed_snippet": "TANT: Understood, I have updated my notes to imperial units only.",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s027-p08",
+      "kind": "multi_hop",
+      "strategy": "summary_hierarchical",
+      "session_id": "s027",
+      "question": "Which standing preference did the user give, and what hard limit applies?",
+      "reference_answer": "imperial units only; no weekend work",
+      "answer_text": "No weekend work — that's the hard limit. Other standing preferences: lunch at 13:00 and no calls on Fridays.",
+      "full_context_answer": "The current standing preference is imperial units only (it superseded the earlier 24-hour clock and metric-units preferences); the hard limit is no weekend work.",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "imperial units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "superseded",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f04",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 341,
+      "compressed_snippet": "calls on Fridays. - USER: Latest preference: imperial units only; metric units superseded;",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s028-p00",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s028",
+      "question": "Summarise this session: what was the overall objective, and which concrete choices were settled on along the way?",
+      "reference_answer": "Objective: reorganise the weekly schedule around the new constraints. Settled on: metric units only; shared-drive.local; no calls on Fridays",
+      "answer_text": "The overall objective isn't stated in the memory, but the settled choices were: renewal date 2026-11-20 (updated from 2026-12-02), shared calendar on shared-drive.local syncing nightly, no calls on Fridays, a hard limit of two trips per quarter, metric units, and 24-hour clock format.",
+      "full_context_answer": "The objective was to reorganise the weekly schedule around the new constraints, with no changes to goals or scope throughout. Concrete choices settled on: no calls on Fridays, metric units only, 24-hour clock, a hard limit of max two trips per quarter, the shared calendar syncing nightly (host noted as home-nas.local, later shared-drive.local), and the subscription renewal date updated from 2026-12-02 to 2026-11-20.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "metric units only",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f02",
+          "value": "shared-drive.local",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f03",
+          "value": "no calls on Fridays",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 337,
+      "compressed_snippet": "carry on. ASSISTANT: A standing preference: metric units only in everything I send you. A",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s028-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s028",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "max two trips per quarter; 24-hour clock; home-nas.local",
+      "answer_text": "Decisions recorded: subscription renewal date updated to 2026-11-20, shared calendar moved to shared-drive.local (syncs nightly), no calls on Fridays, hard limit of two trips per quarter, and metric units with 24-hour clock in all communications. The memory does not record what each was for.",
+      "full_context_answer": "Decisions recorded: subscription renewal date set to 2026-11-20 (updated from 2026-12-02, must not lapse), no calls on Fridays, metric units only, 24-hour clock, a hard limit of two trips per quarter, and the shared calendar hosted on home-nas.local/shared-drive.local with nightly sync — all serving the goal of reorganising the weekly schedule around the new constraints.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "max two trips per quarter",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "home-nas.local",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 337,
+      "compressed_snippet": "r the last pass. There is a hard limit here: max two trips per quarter. USER: Re-reading t",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s028-p01",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s028",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "max two trips per quarter; 24-hour clock; home-nas.local",
+      "answer_text": "The main decisions were a hard cap of two trips per quarter, and hosting the shared calendar on shared-drive.local with nightly sync (superseding home-nas.local); the subscription renewal date was also updated to 2026-11-20 to prevent a lapse.",
+      "full_context_answer": "Decisions recorded: subscription renewal date set to 2026-11-20 (updated from 2026-12-02, must not lapse), no calls on Fridays, metric units only, 24-hour clock, a hard limit of two trips per quarter, and the shared calendar hosted on home-nas.local/shared-drive.local with nightly sync — all serving the goal of reorganising the weekly schedule around the new constraints.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "max two trips per quarter",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "24-hour clock",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f07",
+          "value": "home-nas.local",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 330,
+      "compressed_snippet": "k (all sent items). - ASSISTANT: Hard limit: max two trips per quarter. - ASSISTANT: Share",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s028-p08",
+      "kind": "multi_hop",
+      "strategy": "extractive",
+      "session_id": "s028",
+      "question": "Which standing preference did the user give, and what hard limit applies?",
+      "reference_answer": "no calls on Fridays; max two trips per quarter",
+      "answer_text": "The standing preferences are metric units only and 24-hour clock in everything sent; the hard limit is max two trips per quarter.",
+      "full_context_answer": "Standing preferences: metric units only and the 24-hour clock (plus no calls on Fridays). Hard limit: max two trips per quarter.",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "no calls on Fridays",
+          "kind": "preference",
+          "frequency": 2,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f05",
+          "value": "max two trips per quarter",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 337,
+      "compressed_snippet": ". ASSISTANT: One more preference to respect: no calls on Fridays. ASSISTANT: The shared ca",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s029-p01",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s029",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "no weekend work; family-calendar.internal",
+      "answer_text": "Decisions recorded: the shared calendar is hosted on home-nas.local (updated from family-calendar.internal) with nightly sync; the subscription renewal date is 2026-11-30 and must not lapse; no weekend work is allowed; tabs over spaces is the standing formatting preference; and the lunch-at-13:00 preference was replaced by imperial units only.",
+      "full_context_answer": "Decisions on record: consolidate the household calendar into one source (the project goal), with the shared calendar hosted on a server syncing nightly (first family-calendar.internal, later home-nas.local); a hard limit of no weekend work; a subscription renewal date of 2026-11-30 that must not lapse; tabs over spaces in all output; and lunch at 13:00 was superseded by an \"imperial units only\" preference.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "family-calendar.internal",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 337,
+      "compressed_snippet": "r the last pass. There is a hard limit here: no weekend work. ASSISTANT: The shared calend",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s029-p01",
+      "kind": "high_level",
+      "strategy": "summary_hierarchical",
+      "session_id": "s029",
+      "question": "What were the main technical or operational decisions recorded in this session, and what were they for?",
+      "reference_answer": "no weekend work; family-calendar.internal",
+      "answer_text": "Main decisions: consolidate the household calendar into one source via a shared calendar on home-nas.local with nightly sync (superseding family-calendar.internal), and keep the subscription renewed by 2026-11-30. Working rules set: no weekend work, tabs over spaces in all messages, imperial units only (superseding \"lunch at 13:00\").",
+      "full_context_answer": "Decisions on record: consolidate the household calendar into one source (the project goal), with the shared calendar hosted on a server syncing nightly (first family-calendar.internal, later home-nas.local); a hard limit of no weekend work; a subscription renewal date of 2026-11-30 that must not lapse; tabs over spaces in all output; and lunch at 13:00 was superseded by an \"imperial units only\" preference.",
+      "facts": [
+        {
+          "fact_id": "f05",
+          "value": "no weekend work",
+          "kind": "constraint",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "embedded",
+          "stability": "stable",
+          "survived_verbatim": true
+        },
+        {
+          "fact_id": "f06",
+          "value": "family-calendar.internal",
+          "kind": "host",
+          "frequency": 1,
+          "salience": "background",
+          "embedding": "deep_buried",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 309,
+      "compressed_snippet": "1-30; do not lapse. - ASSISTANT: Hard limit: no weekend work. - ASSISTANT: Use tabs over s",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s029-p06",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s029",
+      "question": "What standing preference did the user state?",
+      "reference_answer": "tabs over spaces",
+      "answer_text": "Imperial units only (replacing the earlier lunch at 13:00 preference).",
+      "full_context_answer": "Tabs over spaces in everything the assistant sends.",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "tabs over spaces",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 337,
+      "compressed_snippet": "comes up. ASSISTANT: A standing preference: tabs over spaces in everything I send you. US",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s029-p06",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s029",
+      "question": "What standing preference did the user state?",
+      "reference_answer": "tabs over spaces",
+      "answer_text": "The user stated a standing preference for imperial units only (superseding the earlier \"lunch at 13:00\" note).",
+      "full_context_answer": "Tabs over spaces in everything the assistant sends.",
+      "facts": [
+        {
+          "fact_id": "f03",
+          "value": "tabs over spaces",
+          "kind": "preference",
+          "frequency": 1,
+          "salience": "foreground",
+          "embedding": "standalone",
+          "stability": "stable",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 309,
+      "compressed_snippet": "ard limit: no weekend work. - ASSISTANT: Use tabs over spaces in all messages. - USER: Imp",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    },
+    {
+      "probe_id": "s030-p02",
+      "kind": "high_level",
+      "strategy": "extractive",
+      "session_id": "s030",
+      "question": "Did anything in this session get updated or revised? Describe the change and what the current state is.",
+      "reference_answer": "allow-new-deps",
+      "answer_text": "Yes — the staging database endpoint was revised from db-stage-02.internal:5433 to staging-pg.internal:6432; the current address is staging-pg.internal:6432.",
+      "full_context_answer": "Yes — the hard constraint was revised from no-native-extensions to allow-new-deps, and allow-new-deps is the current value.",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "allow-new-deps",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 329,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: One detail worth recording, since it comes up later.",
+      "explanation": "The compressed memory dropped `allow-new-deps` entirely (embedded, foreground, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s030-p03",
+      "kind": "specific_fact",
+      "strategy": "extractive",
+      "session_id": "s030",
+      "question": "What hard constraint applies to any solution we ship? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "allow-new-deps",
+      "answer_text": "python>=3.12",
+      "full_context_answer": "allow-new-deps",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "allow-new-deps",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": false
+        }
+      ],
+      "n_facts_verbatim_missing": 1,
+      "compressed_tokens": 329,
+      "compressed_snippet": "ASSISTANT: Happy to help. ASSISTANT: One detail worth recording, since it comes up later.",
+      "explanation": "The compressed memory dropped `allow-new-deps` entirely (embedded, foreground, mentioned 2x, superseded), so the answerer had no way to retrieve it."
+    },
+    {
+      "probe_id": "s030-p03",
+      "kind": "specific_fact",
+      "strategy": "summary_hierarchical",
+      "session_id": "s030",
+      "question": "What hard constraint applies to any solution we ship? (Answer with the value currently in effect, not any earlier one.)",
+      "reference_answer": "allow-new-deps",
+      "answer_text": "python>=3.12 must hold for any solution we ship.",
+      "full_context_answer": "allow-new-deps",
+      "facts": [
+        {
+          "fact_id": "f01",
+          "value": "allow-new-deps",
+          "kind": "constraint",
+          "frequency": 2,
+          "salience": "foreground",
+          "embedding": "embedded",
+          "stability": "superseded",
+          "survived_verbatim": true
+        }
+      ],
+      "n_facts_verbatim_missing": 0,
+      "compressed_tokens": 331,
+      "compressed_snippet": "ution we ship. - USER: Constraint updated to allow-new-deps; supersedes no-native-extensio",
+      "explanation": "Every fact value is still present verbatim in the compressed memory, but the answerer produced a wrong or outdated value: the memory kept the fact and the model failed to use it (or a superseded mention won)."
+    }
+  ],
+  "definitions": {
+    "lost_probe": "correct under full context AND not correct under the compressed condition (for the same probe and strategy)",
+    "verbatim_survival": "the fact's canonical value appears as a case- and whitespace-insensitive substring of the compressed text",
+    "survival_rate": "of the distinct critical facts with a given attribute value that are referenced by at least one probe evaluated in both conditions, the fraction whose value still appears verbatim in the compressed memory",
+    "denominator_note": "the denominator is probed facts, not all facts; a fact no probe asks about cannot be scored"
+  }
+}

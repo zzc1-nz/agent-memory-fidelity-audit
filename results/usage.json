@@ -1,0 +1,36 @@
+{
+  "grand_total": {
+    "calls": 1902,
+    "prompt_tokens": 1102509,
+    "completion_tokens": 553230,
+    "total_tokens": 1655739,
+    "failures": 0
+  },
+  "by_role": {
+    "summarizer": {
+      "calls": 1018,
+      "prompt_tokens": 694897,
+      "completion_tokens": 285134,
+      "total_tokens": 980031,
+      "latency_s": 0,
+      "failures": 0
+    },
+    "answerer": {
+      "calls": 600,
+      "prompt_tokens": 274805,
+      "completion_tokens": 141256,
+      "total_tokens": 416061,
+      "latency_s": 0,
+      "failures": 0
+    },
+    "judge": {
+      "calls": 284,
+      "prompt_tokens": 132807,
+      "completion_tokens": 126840,
+      "total_tokens": 259647,
+      "latency_s": 0,
+      "failures": 0
+    }
+  },
+  "note": "restored from run_full.log after a --stage report rebuild zeroed the ledger"
+}
