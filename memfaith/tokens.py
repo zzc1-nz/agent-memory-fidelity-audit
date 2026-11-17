@@ -12,18 +12,31 @@ from __future__ import annotations
 import os
 import sys
 
+# Vendored copy of tiktoken, produced by scripts/bootstrap.py. It is a *compiled*
+# wheel for one specific Python version, so it must never shadow an interpreter that
+# has its own working install: importing a cp314 build under cp310 raises, and worse,
+# a silent failure here would make token accounting version-dependent. We only add the
+# vendored path when the interpreter cannot already import tiktoken on its own, and we
+# verify the vendored copy actually works before trusting it.
 _VENDOR = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "vendor", "tiktoken")
 
-if os.path.isdir(_VENDOR) and _VENDOR not in sys.path:
-    sys.path.insert(0, _VENDOR)
 
-try:
-    import tiktoken
-except Exception as exc:  # pragma: no cover - fallback path
-    tiktoken = None
-    _IMPORT_ERROR = exc
-else:
-    _IMPORT_ERROR = None
+def _try_import():
+    try:
+        import tiktoken
+
+        tiktoken.get_encoding("cl100k_base")  # prove the native extension loads
+        return tiktoken, None
+    except Exception as exc:  # noqa: BLE001 - any failure means "not usable"
+        return None, exc
+
+
+tiktoken, _IMPORT_ERROR = _try_import()
+
+if tiktoken is None and os.path.isdir(_VENDOR):
+    if _VENDOR not in sys.path:
+        sys.path.insert(0, _VENDOR)
+    tiktoken, _IMPORT_ERROR = _try_import()
 
 _ENCODER = None
 

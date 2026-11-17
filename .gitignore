@@ -13,6 +13,11 @@ __pycache__/
 .pytest_cache/
 piptmp/
 .tmp/
+# Interpreter/build artifacts created while verifying Python 3.10 compatibility
+pip_chk/
+.uvcache/
+.uvpython/
+.venv*/
 
 # Vendored third-party code (re-created by scripts/bootstrap.py)
 vendor/tiktoken/

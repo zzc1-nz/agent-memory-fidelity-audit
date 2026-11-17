@@ -1,5 +1,13 @@
 # Agent Memory-Compression Fidelity Audit
 
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white)](#requirements)
+[![Tests 132 passing](https://img.shields.io/badge/tests-132%20passing-brightgreen)](#requirements)
+[![License MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![Experiment](https://img.shields.io/badge/experiment-30%20sessions%20%C3%97%20300%20probes-informational)](#headline-result-30-sessions-300-probes-166m-tokens-real-models)
+
+`llm-agents` | `memory-compression` | `context-compression` | `prompt-compression` |
+`evaluation-benchmark` | `llm-as-judge`
+
 > **Compression ratio is not the goal. Cost per correct answer is.**
 
 An audit benchmark that asks the question the compression literature leaves open.
@@ -169,6 +177,24 @@ results/
   usage.json          report.md         figures/*.png
 ```
 
+## Requirements
+
+- **Python 3.10+**. Syntax-wise the code avoids anything newer than 3.10, and this was
+  *verified by execution*, not assumed: the full 132-test suite passes on both
+  CPython 3.10.22 and CPython 3.14.5, and the deterministic pipeline reproduces
+  byte-identical output (30 sessions / 300 probes / 41,627 tokens) on both.
+- **Runtime dependencies**: `tiktoken` (token counting) and `matplotlib` (charts).
+  Both are the only non-stdlib imports in the library code.
+- **Test dependency**: `pytest`. `scripts/test.py` finds a usable pytest whether or not
+  it is installed into the active interpreter.
+
+`scripts/bootstrap.py` vendors `tiktoken` into `vendor/` for environments where pip
+cannot install into the interpreter (the sandbox this was developed in). A vendored
+wheel is compiled for *one* Python version, so `memfaith/tokens.py` only falls back to
+it when the interpreter cannot import `tiktoken` itself - otherwise a vendored cp314
+build would shadow a perfectly good cp310 install and break token accounting for no
+reason. If you simply `pip install -r requirements.txt`, the vendored copy is never used.
+
 ## Model configuration
 
 Three distinct model identities are required so the judge never grades its own
@@ -218,7 +244,7 @@ memfaith/
   metrics/             judge, eval matrix, cost metric, failure analysis
   report/build.py      Markdown report + charts
   run.py               CLI orchestration (resumable)
-scripts/               bootstrap, credential refresh, judge calibration, test runner
+scripts/               bootstrap, judge calibration, test runner
 tests/                 132 offline unit tests
 ```
 
@@ -231,5 +257,5 @@ tests/                 132 offline unit tests
 - Two arms, not the full design space. LLMLingua-2 is wired behind a flag but not the
   default (no model download in this environment).
 - `cl100k_base` is a neutral proxy tokenizer, not each model's native one.
-- The Trae backend is rate-limited by the account; the run takes ~80 minutes at
-  concurrency 3, and the client retries with backoff.
+- The reported run went through a rate-limited private gateway; the full experiment
+  takes ~80 minutes at concurrency 3, and the client retries with backoff.
